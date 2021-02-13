@@ -12,6 +12,7 @@
 #define CNL_CMATH_H
 
 #include "_impl/cmath/abs.h"
+#include "_impl/cmath/sqrt.h"
 
 #include <cmath>
 
@@ -19,6 +20,7 @@
 namespace cnl {
     using _impl::abs;
 
+    using _impl::sqrt;
     using std::sqrt;
 }
 
